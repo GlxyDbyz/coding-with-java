@@ -9,27 +9,27 @@ package org.dbyz.java8.functional_interface;
  * @param <P>
  */
 @FunctionalInterface
-public interface MyLambda<P, T> {
+public interface MyLambda<P, R> {
 	/**
 	 * Lambda的返回方法
 	 * 
 	 * @Title: getValue
 	 * @param param
-	 * @return: T
+	 * @return: R
 	 * @since V1.0
 	 */
-	T getValue(P param);
+	R getValue(P param);
 
 	/**
 	 * 只能有一个抽象方法
 	 */
-	// T getValue2(P param);//不允许
+	// R getValue2(P param);//不允许
 
 	/**
 	 * 默认方法是允许的存在的
 	 * 
 	 * @Title: print
-	 * @param @param param
+	 * @param  param
 	 * @return: void
 	 * @since V1.0
 	 */
