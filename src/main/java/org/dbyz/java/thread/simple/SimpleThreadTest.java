@@ -20,7 +20,7 @@ public class SimpleThreadTest {
 	 * @since V1.0
 	 */
 	@Test
-	public void test1() {
+	public void testCreateThread1() {
 		SimpleThread testThread = new SimpleThread("testThread");
 		testThread.run();// run 方法只是纯粹调用对象的方法, main 调用
 		testThread.run();// run 方法只是纯粹调用对象的方法,可以重复调用 main 调用
@@ -38,7 +38,7 @@ public class SimpleThreadTest {
 	 * @since V1.0
 	 */
 	@Test
-	public void test2() {
+	public void testCreateThread2() {
 		Thread test = new Thread(new Runnable() {
 			public void run() {
 				System.out.println("Hello,I am a new Thread:"
@@ -57,11 +57,30 @@ public class SimpleThreadTest {
 			});
 		test1.start();
 
-		// 还有这样(是不是难看?,习惯了,就好看了)
+		// 还有这样(难看?习惯了,就好看了)
 		Thread test2 = new Thread(
 				() -> System.out.println("Hello,I am a new Thread:"
 						+ Thread.currentThread().getName()));
 		test2.start();
+	}
 
+	/**
+	 * 线程休眠
+	 * 
+	 * @Title: testSleep
+	 * @param
+	 * @return: void
+	 * @throws InterruptedException
+	 * @since V1.0
+	 */
+	@Test
+	public void testSleep() throws InterruptedException {
+		System.out.println("before sleep");
+		/*
+		 * 线程休眠需要捕获异常,这里直接抛出去
+		 */
+		Thread.sleep(1000);
+		// 睡眠结束之后线程(当前是主线程)才会继续运行
+		System.out.println("after sleep");
 	}
 }
