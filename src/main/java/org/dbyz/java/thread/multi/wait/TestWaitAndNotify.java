@@ -10,7 +10,6 @@ import org.junit.Test;
  * @version: V1.0
  */
 public class TestWaitAndNotify {
-	private static String lock = "lock";
 
 	@Test
 	public void testWait() throws InterruptedException {
@@ -33,11 +32,12 @@ public class TestWaitAndNotify {
 		// Thread[A1,5,main] run
 		// Thread[A1,5,main] notify others
 		// Thread[A1,5,main] stop
-		// Thread[A1,5,main] stop
 		// Thread[线程名称,线程优先级,线程组名称]
 	}
 
 	static class MyThread implements Runnable {
+		private final static String lock = "lock";
+		
 		private static int count = -1;
 
 		@Override
