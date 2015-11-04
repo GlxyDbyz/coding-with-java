@@ -12,7 +12,7 @@ import org.junit.Test;
 public class SimpleThreadTest {
 
 	/**
-	 * 线程创建方法1: 实例化自己的线程类
+	 * 线程创建方法1: 实例化自己的 Thread 线程类
 	 * 
 	 * @Title: test1
 	 * @param
@@ -30,6 +30,22 @@ public class SimpleThreadTest {
 	}
 
 	/**
+	 * 线程创建方法2: 实例化自己的 Runnable 线程类
+	 * 
+	 * @Title: test1
+	 * @param
+	 * @return: void
+	 * @since V1.0
+	 */
+	@Test
+	public void testCreateThread2() {
+		Thread testThread = new Thread(new SimpleRunable());
+		// 启动线程 和上面的一样
+		testThread.start();
+
+	}
+
+	/**
 	 * 线程创建方法2: 用Runnable开启一个线程(常用方法)
 	 * 
 	 * @Title: test2
@@ -38,7 +54,7 @@ public class SimpleThreadTest {
 	 * @since V1.0
 	 */
 	@Test
-	public void testCreateThread2() {
+	public void testCreateThread3() {
 		Thread test = new Thread(new Runnable() {
 			public void run() {
 				System.out.println("Hello,I am a new Thread:"
@@ -77,7 +93,7 @@ public class SimpleThreadTest {
 	public void testSleep() throws InterruptedException {
 		System.out.println("before sleep");
 		/*
-		 * 线程休眠需要捕获异常,这里直接抛出去
+		 * 线程休眠需要捕获中断异常,这里直接抛出去
 		 */
 		Thread.sleep(1000);
 		// 睡眠结束之后线程(当前是主线程)才会继续运行
