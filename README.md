@@ -6,7 +6,7 @@ Features
 #### Java 7 编程特性基本更新完成
 这部分是不是有点老，将就看看吧
 #### 多线程相关 更新ing...
-老实说，多线程编程接触的不多，但是总归要慢慢学习的
+老实说，多线程编程接触的不多，但是总归要慢慢学习的<br>
 1.新建线程`code`:SimpleThreadTest.java<br>
 2.守护线程`code`:TestDaemon.java<br>
 3.线程同步`code`:TestSynchronized.java<br>
