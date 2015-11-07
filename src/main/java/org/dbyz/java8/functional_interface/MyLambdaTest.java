@@ -2,7 +2,7 @@ package org.dbyz.java8.functional_interface;
 
 import org.junit.Test;
 
-public class TestMyLambda {
+public class MyLambdaTest {
 	/**
 	 * 普通方法实现
 	 * 

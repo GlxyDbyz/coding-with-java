@@ -20,7 +20,7 @@ import org.junit.Test;
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
-public class TestDateApi {
+public class DateApiTest {
 	@Test
 	public void test1() {
 		// 东八区

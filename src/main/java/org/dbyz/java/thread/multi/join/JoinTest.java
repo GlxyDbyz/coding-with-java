@@ -7,7 +7,7 @@ package org.dbyz.java.thread.multi.join;
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
-public class TestJoin {
+public class JoinTest {
 	// 首先:join()方法和join(time)的调用是在某个线程对象T上的
 	// 其次:调用之后,当前线程C会进入等待状态,等待被唤醒(当然如果没有唤醒,则一直等待)
 	// 其内部实现是调用了Object.wait()方法,也就是调用了T.wait()方法(这里是重点,说明此时的T是一个锁对象),

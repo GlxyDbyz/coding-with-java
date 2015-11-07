@@ -7,7 +7,7 @@ package org.dbyz.java.thread.multi.interrupte;
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
-public class TestInterrupte {
+public class InterrupteTest {
 	// 1.首先明确什么时候需要线程中断:线程拥有者希望线程不再继续运行
 	// 2.阻塞方法sleep(),wait()为什么抛出InterruptedException:希望线程的调用者知道线程被中断
 	// 3.如何处理中断和中断异常:不要吞噬中断异常;让线程中断;
