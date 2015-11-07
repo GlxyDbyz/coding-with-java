@@ -2,7 +2,7 @@ package org.dbyz.java8.interface_with_defaule_function;
 
 import org.junit.Test;
 
-public class TestIt {
+public class DefaultFunctionTest {
 	@Test
 	public void test1() {
 		ICar car = new MyCar();

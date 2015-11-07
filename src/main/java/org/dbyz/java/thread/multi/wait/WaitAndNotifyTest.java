@@ -8,7 +8,7 @@ package org.dbyz.java.thread.multi.wait;
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
-public class TestWaitAndNotify {
+public class WaitAndNotifyTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		new Thread(new MyThread(), "A1").start();

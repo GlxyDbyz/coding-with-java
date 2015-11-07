@@ -7,7 +7,7 @@ package org.dbyz.java.thread.multi.yield;
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
-public class TestYield {
+public class YieldTest {
 	// 首先明确yield方法是线程的静态方法,运行他代表当前线程有让出资源的意愿,
 	// 但是是否真的让出资源,由JVM决定,所以测试出明显的现象并不是那么容易
 	// 下面四条线程 t1 和 t2 一起运行没有使用yield方法 ,t3 和 t4 一起运行,在t3的循环里面调用了yeild

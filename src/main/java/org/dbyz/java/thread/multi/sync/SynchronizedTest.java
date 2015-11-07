@@ -11,7 +11,7 @@ import org.junit.Test;
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
-public class TestSynchronized {
+public class SynchronizedTest {
 
 	/**
 	 * 测试同步的方法 (同步最主要的概念是锁,只有当前的线程获取锁,才能(继续)执行,否则一直阻塞,sleep()仅仅只是延迟,不会释放锁)
@@ -105,9 +105,9 @@ public class TestSynchronized {
 	}
 
 	public void runWithSyncBlock2() {
-		synchronized (TestSynchronized.class) {
+		synchronized (SynchronizedTest.class) {
 			// 打印出来的东西一致,说明是同一个锁,这样才能同步
-			System.out.println(TestSynchronized.class);
+			System.out.println(SynchronizedTest.class);
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
