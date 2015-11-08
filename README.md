@@ -15,6 +15,10 @@ Features
 6.线程合并`code`:JoinTest.java<br>
 7.线程让步`code`:YeildTest.java<br>
       更新ing...
-#### Java中的引用待更新...
+#### Java中的引用
+1.强引用`code`:StrongReferenceTest.java<br>
+2.软引用`code`:SoftReferenceTest.java<br>
+3.弱引用`code`:WeakReferenceTest.java<br>
+4.虚引用`code`:PhantomReferenceTest.java<br>
 <br><br><br>
 ![Dbyz](https://avatars2.githubusercontent.com/u/6849536?v=3&s=64 "Dbyz") 
