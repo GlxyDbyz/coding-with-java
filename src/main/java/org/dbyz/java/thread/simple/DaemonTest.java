@@ -7,7 +7,7 @@ package org.dbyz.java.thread.simple;
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
-public class TestDaemon {
+public class DaemonTest {
 	public static void main(String[] args) throws InterruptedException {
 		Thread daemon = new Thread(new SimpleRunable());
 		daemon.setDaemon(true);// 设置为创建他的线程的守护线程(此处为主线程)
