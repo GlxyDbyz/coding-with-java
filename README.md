@@ -24,6 +24,8 @@ Features
 1.数组和链表 实现的阻塞队列 `code`:ArrayBlockingQueueTest.java & LinkedBlockingQueueTest.java<br>
 2.普通HashMap和同步的ConcurrentHashMap简单对比`code`:ConcurrentHashMapTest.java<br>
 3.普通LinkedBlockingQueue和同步的ConcurrentLinkedQueue简单对比`code`:ConcurrentLinkedQueueTest.java<br>
+4.可重入锁简单例子`code`:ReentrantLockTest.java<br>
+5.线程信号量简单例子`code`:SemaphoreTest.java<br>
      
 ## 其他
 ### Java反射
