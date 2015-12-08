@@ -1,4 +1,4 @@
-package org.dbyz.java.thread.JUC;
+package org.dbyz.java.thread.JUC.locks;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
