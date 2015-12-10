@@ -103,6 +103,11 @@
 			<version>3.1</version>
 		</dependency>
 		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
 			<version>1.7.3</version>
@@ -119,6 +124,11 @@
 			<version>1.7.5</version>
 		</dependency>
 		<!-- slf4j end -->
+		<dependency>
+			<groupId>com.rabbitmq</groupId>
+			<artifactId>amqp-client</artifactId>
+			<version>3.5.6</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>features</finalName>
