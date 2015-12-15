@@ -14,7 +14,7 @@ import com.rabbitmq.client.ShutdownSignalException;
 /**
  * 消息消费者
  *
- * @ClassName: Comsumer
+ * @ClassName: Consumer
  * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
  * @version: V1.0
  */
