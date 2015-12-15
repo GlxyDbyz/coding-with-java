@@ -44,6 +44,9 @@ Features
 #### commons-codec
 1.BASE64、MD2、MD5、SHA1、SHA224、SHA256、SHA384、SHA512算法的Java实现`code`DigestTest.java
 
+#### ActiveMQ和RabbitMQ简单例子
+org.dbyz.frameworks.activemq & org.dbyz.frameworks.rabbitmq
+
 #### 其他待更新...
 <br><br><br>
 ![Dbyz](https://avatars2.githubusercontent.com/u/6849536?v=3&s=64 "Dbyz") 
