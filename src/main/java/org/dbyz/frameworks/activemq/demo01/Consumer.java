@@ -39,7 +39,7 @@ public class Consumer {
 		// 6.创建消费者
 		MessageConsumer  consumer = session.createConsumer(queue);
 		
-		// 7.接收消息
+		// 7.接收消息(监听器形式,一有消息就会接收)
 		consumer.setMessageListener((Message msg)->{
 			TextMessage message = (TextMessage)msg;
 			try {
@@ -49,7 +49,7 @@ public class Consumer {
 			}
 		});
 		
-		// 等待接收消息
+		// 等待监听器监听并接收消息
 		Thread.sleep(1000);
 		
 		// 8.提交session关闭连接
