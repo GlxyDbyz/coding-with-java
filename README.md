@@ -1,6 +1,6 @@
 Features
 ====
-一起学习 Java8 新特性、多线程和其他好玩的事情，当然是和Java相关的（持续更新，但是我真的比较懒，不要问我为什么叫Features，我也不知道）<br><br>
+一起学习 Java8 新特性、多线程和其他好玩的事情，当然是和Java相关的(持续更新)<br><br>
 
 ## Java 8 编程新特性基本更新完成
 主要是Lambda表达式，简化了编程org.dbyz.java8
@@ -45,7 +45,11 @@ Features
 1.BASE64、MD2、MD5、SHA1、SHA224、SHA256、SHA384、SHA512算法的Java实现`code`DigestTest.java
 
 #### ActiveMQ和RabbitMQ简单例子
-org.dbyz.frameworks.activemq & org.dbyz.frameworks.rabbitmq
+`packageorg`:dbyz.frameworks.activemq & org.dbyz.frameworks.rabbitmq
+
+#### Spring框架
+1.Spring AOP 简单例子`package`:org.dbyz.frameworks.spring.aop<br/>
+2.Spring 定时任务简单例子`package`:org.dbyz.frameworks.spring.schedule<br/>
 
 #### 其他待更新...
 <br><br><br>
