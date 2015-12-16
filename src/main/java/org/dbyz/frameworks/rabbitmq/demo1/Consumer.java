@@ -23,14 +23,17 @@ public class Consumer {
 			TimeoutException, ShutdownSignalException,
 			ConsumerCancelledException, InterruptedException {
 		
-		// 1.创建并初始化连接工厂
+		// 1.创建并初始化连接工厂(地址,端口,用户名和密码)
 		ConnectionFactory factory = new ConnectionFactory();
 		factory.setHost("127.0.0.1");
+		factory.setPort(5672);
+		factory.setUsername("guest");
+		factory.setPassword("guest");
 		
 		// 2.新建连接(异常直接抛出)
 		Connection conn = factory.newConnection();
 		
-		// 3.在连接中创建频道
+		// 3.在连接中创建通道
 		Channel channel = conn.createChannel();
 		
 		// 4.创建消息队列(指定名称的消息队列不存在就创建它,已经存在则什么也不做,防止生产者还没有创建指定名称的消息队列导致报错)
