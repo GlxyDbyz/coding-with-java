@@ -44,10 +44,15 @@ Features
 #### commons-codec
 1.BASE64、MD2、MD5、SHA1、SHA224、SHA256、SHA384、SHA512算法的Java实现`code`DigestTest.java
 
-#### ActiveMQ和RabbitMQ简单例子
-`packageorg`:dbyz.frameworks.activemq & org.dbyz.frameworks.rabbitmq
+#### JMS
+1.ActiveMQ和RabbitMQ 入门例子<br/>
+`code`:org.dbyz.frameworks.activemq.demo1<br/>
+`code`:org.dbyz.frameworks.rabbitmq.demo1<br/>
+2.ActiveMQ和RabbitMQ 简单封装<br/>
+`code`:org.dbyz.frameworks.activemq.demo2<br/>
+`code`:org.dbyz.frameworks.rabbitmq.demo2<br/>
 
-#### Spring框架
+#### Spring
 1.Spring AOP 简单例子`package`:org.dbyz.frameworks.spring.aop<br/>
 2.Spring 定时任务简单例子`package`:org.dbyz.frameworks.spring.schedule<br/>
 
