@@ -56,6 +56,10 @@ Features
 1.Spring AOP 简单例子`package`:org.dbyz.frameworks.spring.aop<br/>
 2.Spring 定时任务简单例子`package`:org.dbyz.frameworks.spring.schedule<br/>
 
+#### MongoDB
+1.MongoDB简单例子`code`:org.dbyz.frameworks.mongo.SimpleMongoTest.java<br/>
+2.MongoDB增删改查例子`code`:org.dbyz.frameworks.mongo.MongoCRUDTest.java<br/>
+
 #### 其他待更新...
 <br><br><br>
 ![Dbyz](https://avatars2.githubusercontent.com/u/6849536?v=3&s=64 "Dbyz") 
