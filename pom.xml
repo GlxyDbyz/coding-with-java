@@ -152,6 +152,16 @@
 			<artifactId>mongo-java-driver</artifactId>
 			<version>3.2.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.13</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.13</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>features</finalName>
