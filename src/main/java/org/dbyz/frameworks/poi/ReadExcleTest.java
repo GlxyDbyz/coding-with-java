@@ -18,7 +18,14 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Test;
 
-public class ReadExcle {
+/**
+ * 读取excel文件简单例子
+ *
+ * @ClassName: ReadExcle
+ * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @version: V1.0
+ */
+public class ReadExcleTest {
 	/**
 	 * 读取 excel 2003 文件
 	 * 
@@ -67,6 +74,14 @@ public class ReadExcle {
 		hssfWorkbook.close();
 	}
 
+	/**
+	 * 读取 excel 2007+ 文件
+	 * 
+	 * @Title: readXlsx
+	 * @param @throws IOException
+	 * @return: void
+	 * @since V1.0
+	 */
 	@Test
 	public void readXlsx() throws IOException {
 		FileInputStream input = new FileInputStream(
@@ -106,10 +121,19 @@ public class ReadExcle {
 		excel.close();
 	}
 
+	/**
+	 * 读取 excel 2003 和excel2007+ 文件
+	 * 
+	 * @Title: readXlsAndXlsx
+	 * @param @throws IOException
+	 * @return: void
+	 * @since V1.0
+	 */
 	@Test
 	public void readXlsAndXlsx() throws IOException {
 		String pathname = "E://github//Features//src//main//java//org//dbyz//frameworks//poi//test.xls";
-		// String pathname = "E://github//Features//src//main//java//org//dbyz//frameworks//poi//test.xlsx";
+		// String pathname =
+		// "E://github//Features//src//main//java//org//dbyz//frameworks//poi//test.xlsx";
 
 		String suffix = pathname.substring(pathname.lastIndexOf("."),
 				pathname.length());
