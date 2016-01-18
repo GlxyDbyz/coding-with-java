@@ -60,6 +60,10 @@ Features
 1.MongoDB简单例子`code`:org.dbyz.frameworks.mongo.SimpleMongoTest.java<br/>
 2.MongoDB增删改查例子`code`:org.dbyz.frameworks.mongo.MongoCRUDTest.java<br/>
 
+#### POI
+1.excel简单读写操作`code`:org.dbyz.frameworks.poi.ReadExcleTest.java&org.dbyz.frameworks.poi.WriteExcleTest.java<br/>
+2.word简单读取操作`code`:org.dbyz.frameworks.poi.ReadWordTest.java<br/>
+
 #### 其他待更新...
 <br><br><br>
 ![Dbyz](https://avatars2.githubusercontent.com/u/6849536?v=3&s=64 "Dbyz") 
