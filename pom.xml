@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.dbyz</groupId>
-	<artifactId>features</artifactId>
+	<artifactId>coding-with-java</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>features</name>
+	<name>coding-with-java</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<spring.version>4.2.3.RELEASE</spring.version>
@@ -164,7 +164,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>features</finalName>
+		<finalName>coding-with-java</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
