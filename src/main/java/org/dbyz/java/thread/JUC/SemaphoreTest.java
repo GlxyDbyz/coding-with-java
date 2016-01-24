@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
  * 当空闲的信号量为0的时候,其他想获取信号量的线程就会阻塞,等待其他线程释放
  * 
  * @ClassName: SemaphoreTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class SemaphoreTest {

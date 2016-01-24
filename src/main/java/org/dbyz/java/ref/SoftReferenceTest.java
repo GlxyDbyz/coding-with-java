@@ -8,7 +8,7 @@ import java.util.List;
  * 软引用例子(软引用指向的对象在虚拟机内存不足GC时会回收内存)
  *
  * @ClassName: SoftReferenceTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class SoftReferenceTest {

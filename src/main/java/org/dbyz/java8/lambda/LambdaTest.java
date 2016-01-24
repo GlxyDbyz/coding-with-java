@@ -13,7 +13,7 @@ import org.junit.Test;
  * 写几个Lambda表达式的例子
  *
  * @ClassName: TestLambda
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class LambdaTest {

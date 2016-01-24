@@ -8,7 +8,7 @@ import java.util.List;
  * 弱引用例子(弱引用指向的对象会在虚拟机GC的时候会被回收,无论内存是否充足)
  *
  * @ClassName: WeakReferenceTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class WeakReferenceTest {

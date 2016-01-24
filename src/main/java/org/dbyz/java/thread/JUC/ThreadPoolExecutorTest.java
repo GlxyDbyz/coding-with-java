@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  * 线程池简单例子
  * 
  * @ClassName: ThreadPoolExecutorTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class ThreadPoolExecutorTest extends ThreadPoolExecutor {

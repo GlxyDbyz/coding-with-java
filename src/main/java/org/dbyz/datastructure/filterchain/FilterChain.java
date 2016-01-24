@@ -6,7 +6,7 @@ import java.util.List;
  * 过滤器链
  *
  * @ClassName: FilterChain
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class FilterChain implements Filter {

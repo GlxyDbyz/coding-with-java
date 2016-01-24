@@ -19,7 +19,7 @@ import org.junit.Test;
  * java 7 编程特性（和Java 8 一样，我们只关心它在编程和语法上的特性，至于框架性的东西就太多了）
  *
  * @ClassName: TestJava7Features
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class Java7FeaturesTest {

@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * (LinkedBlockingQueue 在没有使用阻塞方法的时候就是普通的Queue,所以Java没有单独去实现普通的Queue)
  * 
  * @ClassName: ConcurrentLinkedQueueTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class ConcurrentLinkedQueueTest {

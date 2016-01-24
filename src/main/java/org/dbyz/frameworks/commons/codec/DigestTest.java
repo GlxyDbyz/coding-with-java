@@ -15,7 +15,7 @@ import sun.misc.BASE64Encoder;
  * java的数据指纹算法 java实现(commons-codec简化)和 bouncycastle 实现
  *
  * @ClassName: TestDigest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class DigestTest {

@@ -19,7 +19,7 @@ import org.junit.Test;
  * java8 自带的一些Lambda接口，我们可以直接拿来使用(就是实现它们，免去了自己定义的步骤)
  *
  * @ClassName: TestSomePersonfulInterface
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class SomeUsefulInterfaceTest {

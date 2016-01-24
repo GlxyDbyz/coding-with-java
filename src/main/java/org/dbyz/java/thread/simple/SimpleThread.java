@@ -4,7 +4,7 @@ package org.dbyz.java.thread.simple;
  * 简单继承Thread构造一个自己的线程类
  *
  * @ClassName: SimpleThread
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class SimpleThread extends Thread {

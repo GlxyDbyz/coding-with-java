@@ -4,7 +4,7 @@ package org.dbyz.java.jni;
  * JNI 简单测试(接收dll传过来的字符串)
  * 
  * @ClassName: FirstJniTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class FirstJniTest {

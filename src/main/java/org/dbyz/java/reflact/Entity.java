@@ -4,7 +4,7 @@ package org.dbyz.java.reflact;
  * 为了测试反射而写的类(丑陋)
  *
  * @ClassName: Entity
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 @SuppressWarnings("all")

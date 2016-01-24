@@ -6,7 +6,7 @@ package org.dbyz.java.thread.multi.wait;
  * 线程等待和唤醒   : wait(time)之后,当前线程会释放锁,进入等待状态,等待再次唤醒,然后再去竞争锁,然后继续执行;如果线程没有被唤醒,则线程一直处于等待状态,虚拟机不会退出
  *
  * @ClassName: TestWaitAndNotify2
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class WaitAndNotifyTest2 {

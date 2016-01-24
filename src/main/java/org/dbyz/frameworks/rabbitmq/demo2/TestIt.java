@@ -8,7 +8,7 @@ import org.junit.runners.MethodSorters;
  * 测试类
  *
  * @ClassName: TestIt
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)/*按方法字母顺序执行*/

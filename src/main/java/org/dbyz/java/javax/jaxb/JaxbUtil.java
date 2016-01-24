@@ -11,7 +11,13 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-
+/**
+ * Jaxb简单使用例子
+ *
+ * @ClassName: JaxbUtil
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a> 
+ * @version: V1.0
+ */
 @SuppressWarnings("unchecked")
 public class JaxbUtil {
 	/**

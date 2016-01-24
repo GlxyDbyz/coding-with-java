@@ -7,7 +7,7 @@ import java.util.concurrent.ArrayBlockingQueue;
  * (既然是数组实现的,则队列创建之后大小就不可修改)
  * 
  * @ClassName: ArrayBlockingQueueTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class ArrayBlockingQueueTest {

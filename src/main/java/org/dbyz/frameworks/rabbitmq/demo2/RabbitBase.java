@@ -16,7 +16,7 @@ import com.rabbitmq.client.ConnectionFactory;
  * RabbitMQ 基础类封装
  *
  * @ClassName: RabbitBase
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public abstract class RabbitBase {

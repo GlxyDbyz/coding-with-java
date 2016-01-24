@@ -10,7 +10,7 @@ import java.util.List;
  * java 虚引用例子(虚引用在没有强引用对象指向同一个对象的时候,虚引用会被放入队列,并在下次GC的时候回收这些内存)
  *
  * @ClassName: PhantomReferenceTest
- * @author: 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
 public class PhantomReferenceTest {
