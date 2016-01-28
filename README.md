@@ -8,9 +8,20 @@ coding-with-java
 ## Java 7 编程特性基本更新完成
 这部分是不是有点老，将就看看吧org.dbyz.java7
 
+## Java 中的自带的数据结构解析【见中文代码注释】(基于Java 1.8.0_31 更新...ing)
+### package：org.dbyz.java.datastructure
+1.java.util.ArrayList <br>
+2.java.util.LinkedList <br>
+3.java.util.HashMap <br>
+4.java.util.LinkedHashMap <br>
+5.java.util.Hashtable <br>
+6.java.util.HashSet <br>
+7.java.util.LinkedHashSet <br>
+其他请看JCU包
+<br>
+
 ## 多线程相关 
 ### Thread&Object
-老实说，多线程编程接触的不多，但是总归要慢慢学习的<br>
 1.新建线程`code`:SimpleThreadTest.java<br>
 2.守护线程`code`:DaemonTest.java<br>
 3.线程同步`code`:TestSynchronized.java<br>
