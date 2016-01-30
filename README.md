@@ -6,7 +6,7 @@ coding-with-java
 ##### Java 8 编程新特性基本更新完成
 	org.dbyz.java8.lambda
 	org.dbyz.java8.functional_interface
-	org.dbyz.java8.date_api
+	org.dbyz.java8.some_userful_interface
 	org.dbyz.java8.interface_with_defaule_function
 	org.dbyz.java8.date_api
 
@@ -14,8 +14,8 @@ coding-with-java
 	org.dbyz.java7.Java7FeaturesTest.java
 
 # 二、Java 语言相关知识
-## 多线程相关 
-##### Thread&Object
+## 1.多线程相关 
+##### 1.1 Thread&Object
 	1.新建线程:SimpleThreadTest.java
 	
 	2.守护线程:DaemonTest.java
@@ -34,7 +34,7 @@ coding-with-java
 	
 	更新ing...
 
-##### JUC框架
+##### 1.2 JUC框架
 	1.数组和链表实现的阻塞队列 :
 		ArrayBlockingQueueTest.java
 		LinkedBlockingQueueTest.java
@@ -51,7 +51,7 @@ coding-with-java
 	5.线程信号量简单例子:
 		SemaphoreTest.java
 
-## Java中的引用
+## 2.Java中的引用
 	1.强引用:StrongReferenceTest.java
 	
 	2.软引用:SoftReferenceTest.java
@@ -60,7 +60,7 @@ coding-with-java
 	
 	4.虚引用:PhantomReferenceTest.java
 
-## Java 中的自带的数据结构解析【见中文代码注释】
+## 3.Java 中的自带的数据结构解析【见中文代码注释】
 ##### package：org.dbyz.java.datastructure (基于Java 1.8.0_31 待更新...ing)
 	ArrayList
 	LinkedList
@@ -79,16 +79,23 @@ coding-with-java
 	HashSet 
 	LinkedHashSet 
 
-## 有趣的Java
+## 4.有趣的Java
+##### 4.1 语法相关
+	一个有关继承的有趣例子：org.dbyz.java.funny.about_inherit
 
-## 数据结构和算法
+
+## 5.数据结构
+
+## 6.算法
+
+## 7.设计模式
    
-## 其他
+# 三、其他(工具、框架)
 ##### Java反射
-	简单例子、反射写的一个Java toString 例子:ObjectToStringUtil.java
+	简单反射例子:ObjectToStringUtil.java
 
-##### Jaxb使用(自己写的Jaxb简单工具类)
-	实现对象和XML之间的转换,对象和XML文件之间转换,以及从URL获取XML并转换成对象:JaxbUtil.java
+##### Jax的b使用(自己写的Jaxb简单工具类)
+	Jaxb实现对象和XML之间的转换:JaxbUtil.java
 
 ##### commons-codec
 	1.BASE64、MD2、MD5、SHA1、SHA224、SHA256、SHA384、SHA512算法的Java实现DigestTest.java
@@ -119,6 +126,6 @@ coding-with-java
 		
 	2.word简单读取操作:org.dbyz.frameworks.poi.ReadWordTest.java
 
-#### 其他待更新...
+其他待更新...
 
 ![Dbyz](https://avatars2.githubusercontent.com/u/6849536?v=3&s=64 "Dbyz") 
