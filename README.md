@@ -1,80 +1,88 @@
 coding-with-java
 ====
-一起学习 Java8 新特性、多线程和其他好玩的事情，当然是和Java相关的(持续更新)<br><br>
+	一起学习 Java8 新特性、多线程和其他好玩的事情，当然是和Java相关的(持续更新)
 
 ## Java 8 编程新特性基本更新完成
-主要是Lambda表达式，简化了编程org.dbyz.java8
+	主要是Lambda表达式，简化了编程org.dbyz.java8
 
 ## Java 7 编程特性基本更新完成
-这部分是不是有点老，将就看看吧org.dbyz.java7
+	这部分是不是有点老，将就看看吧org.dbyz.java7
 
-## Java 中的自带的数据结构解析【见中文代码注释】(基于Java 1.8.0_31 更新...ing)
-### package：org.dbyz.java.datastructure
-1.java.util.ArrayList <br>
-2.java.util.LinkedList <br>
-3.java.util.HashMap <br>
-4.java.util.LinkedHashMap <br>
-5.java.util.Hashtable <br>
-6.java.util.HashSet <br>
-7.java.util.LinkedHashSet <br>
-其他请看JCU包
-<br>
+## Java 中的自带的数据结构解析【见中文代码注释】
+### package：org.dbyz.java.datastructure (基于Java 1.8.0_31 待更新...ing)
+	ArrayList
+	LinkedList
+	HashMap
+	LinkedHashMap
+	Hashtable
+	HashSet
+	LinkedHashSet
+
+### package：org.dbyz.java.datastructure.\_1\_6(基于Java 1.6.0_18 待更新...ing)
+	ArrayList 
+	LinkedList 
+	HashMap 
+	LinkedHashMap 
+	Hashtable 
+	HashSet 
+	LinkedHashSet 
+
 
 ## 多线程相关 
 ### Thread&Object
-1.新建线程`code`:SimpleThreadTest.java<br>
-2.守护线程`code`:DaemonTest.java<br>
-3.线程同步`code`:TestSynchronized.java<br>
-4.线程等待和唤醒`code`:WaitAndNotifyTest.java & WaitAndNotifyTest2.java<br>
-5.线程中断`code`:InterrupteTest.java<br>
-6.线程合并`code`:JoinTest.java<br>
-7.线程让步`code`:YeildTest.java<br>
-      更新ing...
+	1.新建线程`code`:SimpleThreadTest.java
+	2.守护线程`code`:DaemonTest.java
+	3.线程同步`code`:TestSynchronized.java
+	4.线程等待和唤醒`code`:WaitAndNotifyTest.java & WaitAndNotifyTest2.java
+	5.线程中断`code`:InterrupteTest.java
+	6.线程合并`code`:JoinTest.java
+	7.线程让步`code`:YeildTest.java
+	更新ing...
 
 ### JUC框架
-1.数组和链表 实现的阻塞队列 `code`:ArrayBlockingQueueTest.java & LinkedBlockingQueueTest.java<br>
-2.普通HashMap和同步的ConcurrentHashMap简单对比`code`:ConcurrentHashMapTest.java<br>
-3.普通LinkedBlockingQueue和同步的ConcurrentLinkedQueue简单对比`code`:ConcurrentLinkedQueueTest.java<br>
-4.可重入锁简单例子`code`:ReentrantLockTest.java<br>
-5.线程信号量简单例子`code`:SemaphoreTest.java<br>
+	1.数组和链表 实现的阻塞队列 `code`:ArrayBlockingQueueTest.java & LinkedBlockingQueueTest.java
+	2.普通HashMap和同步的ConcurrentHashMap简单对比`code`:ConcurrentHashMapTest.java
+	3.普通LinkedBlockingQueue和同步的ConcurrentLinkedQueue简单对比`code`:ConcurrentLinkedQueueTest.java
+	4.可重入锁简单例子`code`:ReentrantLockTest.java
+	5.线程信号量简单例子`code`:SemaphoreTest.java
      
 ## 其他
 ### Java反射
-简单例子、反射写的一个Java toString 例子`code`:ObjectToStringUtil.java<br>
+	简单例子、反射写的一个Java toString 例子`code`:ObjectToStringUtil.java
 
 ### Java中的引用
-1.强引用`code`:StrongReferenceTest.java<br>
-2.软引用`code`:SoftReferenceTest.java<br>
-3.弱引用`code`:WeakReferenceTest.java<br>
-4.虚引用`code`:PhantomReferenceTest.java<br>
+	1.强引用`code`:StrongReferenceTest.java
+	2.软引用`code`:SoftReferenceTest.java
+	3.弱引用`code`:WeakReferenceTest.java
+	4.虚引用`code`:PhantomReferenceTest.java
 
 ### Jaxb使用(自己写的Jaxb简单工具类)
-实现对象和XML之间的转换,对象和XML文件之间转换,以及从URL获取XML并转换成对象`code`:JaxbUtil.java<br>
+	实现对象和XML之间的转换,对象和XML文件之间转换,以及从URL获取XML并转换成对象`code`:JaxbUtil.java
 
 ### 框架使用 
 #### commons-codec
-1.BASE64、MD2、MD5、SHA1、SHA224、SHA256、SHA384、SHA512算法的Java实现`code`DigestTest.java
+	1.BASE64、MD2、MD5、SHA1、SHA224、SHA256、SHA384、SHA512算法的Java实现`code`DigestTest.java
 
 #### JMS
-1.ActiveMQ和RabbitMQ 入门例子<br/>
-`code`:org.dbyz.frameworks.activemq.demo1<br/>
-`code`:org.dbyz.frameworks.rabbitmq.demo1<br/>
-2.ActiveMQ和RabbitMQ 简单封装<br/>
-`code`:org.dbyz.frameworks.activemq.demo2<br/>
-`code`:org.dbyz.frameworks.rabbitmq.demo2<br/>
+	1.ActiveMQ和RabbitMQ 入门例子
+	`code`:org.dbyz.frameworks.activemq.demo1
+	`code`:org.dbyz.frameworks.rabbitmq.demo1
+	2.ActiveMQ和RabbitMQ 简单封装
+	`code`:org.dbyz.frameworks.activemq.demo2
+	`code`:org.dbyz.frameworks.rabbitmq.demo2
 
 #### Spring
-1.Spring AOP 简单例子`package`:org.dbyz.frameworks.spring.aop<br/>
-2.Spring 定时任务简单例子`package`:org.dbyz.frameworks.spring.schedule<br/>
+	1.Spring AOP 简单例子`package`:org.dbyz.frameworks.spring.aop
+	2.Spring 定时任务简单例子`package`:org.dbyz.frameworks.spring.schedule
 
 #### MongoDB
-1.MongoDB简单例子`code`:org.dbyz.frameworks.mongo.SimpleMongoTest.java<br/>
-2.MongoDB增删改查例子`code`:org.dbyz.frameworks.mongo.MongoCRUDTest.java<br/>
+	1.MongoDB简单例子`code`:org.dbyz.frameworks.mongo.SimpleMongoTest.java
+	2.MongoDB增删改查例子`code`:org.dbyz.frameworks.mongo.MongoCRUDTest.java
 
 #### POI
-1.excel简单读写操作`code`:org.dbyz.frameworks.poi.ReadExcleTest.java&org.dbyz.frameworks.poi.WriteExcleTest.java<br/>
-2.word简单读取操作`code`:org.dbyz.frameworks.poi.ReadWordTest.java<br/>
+	1.excel简单读写操作`code`:org.dbyz.frameworks.poi.ReadExcleTest.java&org.dbyz.frameworks.poi.WriteExcleTest.java
+	2.word简单读取操作`code`:org.dbyz.frameworks.poi.ReadWordTest.java
 
 #### 其他待更新...
-<br><br><br>
+
 ![Dbyz](https://avatars2.githubusercontent.com/u/6849536?v=3&s=64 "Dbyz") 
