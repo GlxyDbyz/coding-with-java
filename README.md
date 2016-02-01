@@ -85,10 +85,16 @@ coding-with-java
 
 
 ## 5.数据结构
-
+	责任链条模式:org.dbyz.datastructure.filterchain
+	
 ## 6.算法
+	待更新
 
 ## 7.设计模式
+	简单工厂模式:org.dbyz.design_pattern._01SimpleFactory
+	外观模式:org.dbyz.design_pattern._02Faced
+	适配器模式:org.dbyz.design_pattern._3Adapter
+	单例模式:org.dbyz.design_pattern._4singleton
    
 # 三、其他(工具、框架)
 ##### Java反射
