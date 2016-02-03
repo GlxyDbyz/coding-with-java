@@ -126,7 +126,7 @@ public class ArrayList<E> extends AbstractList<E>
     /**
      * Default initial capacity.
      */
-    private static final int DEFAULT_CAPACITY = 10; //默认的大小
+    private static final int DEFAULT_CAPACITY = 10; //当有数组元素插入的时候,ArrayList的默认的大小
 
     /**
      * Shared empty array instance used for empty instances.
@@ -137,8 +137,8 @@ public class ArrayList<E> extends AbstractList<E>
      * Shared empty array instance used for default sized empty instances. We
      * distinguish this from EMPTY_ELEMENTDATA to know how much to inflate when
      * first element is added.
-     */
-    private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
+     */ // 默认的空实例对象(和Java1.6不一样的实现方式,默认构造器新建ArrayList的时候默认的实例,而不再是大小为10的空数组,优化性能)
+    private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {}; 
 
     /**
      * The array buffer into which the elements of the ArrayList are stored.
@@ -206,7 +206,7 @@ public class ArrayList<E> extends AbstractList<E>
      * the storage of an <tt>ArrayList</tt> instance.
      */
     public void trimToSize() { // 去除尾部的为NULL的元素,节省空间
-        modCount++; // 修改的次数  transient 它是内存可见的,防止多线程操作造成显存安全问题,出现多线程操作(set(),add(),next(),previous()等方法),它用来标记数组的版本,操作前后版本不一致则会抛出ConcurrentModificationException
+        modCount++; // 修改的次数,防止多线程操作造成显存安全问题,出现多线程操作(set(),add(),next(),previous()等方法),它用来标记数组的版本,操作前后版本不一致则会抛出ConcurrentModificationException
         if (size < elementData.length) {
             elementData = (size == 0)
               ? EMPTY_ELEMENTDATA
