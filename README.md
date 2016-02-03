@@ -70,15 +70,6 @@ coding-with-java
 	HashSet
 	LinkedHashSet
 
-##### package：org.dbyz.java.datastructure.\_1\_6(基于Java 1.6.0_18 待更新...ing)
-	ArrayList 
-	LinkedList 
-	HashMap 
-	LinkedHashMap 
-	Hashtable 
-	HashSet 
-	LinkedHashSet 
-
 ## 4.有趣的Java
 ##### 4.1 语法相关
 	一个有关继承的有趣例子：org.dbyz.java.funny.about_inherit
