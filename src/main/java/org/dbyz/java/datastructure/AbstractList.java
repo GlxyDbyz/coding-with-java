@@ -608,8 +608,8 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
      * does not wish to provide fail-fast iterators, this field may be
      * ignored.
      */
-    protected transient int modCount = 0;
-
+    protected transient int modCount = 0; // 实例被修改的次数,用于标记实例在某些方法操作的前后是否被修改过(修改过则抛出ConcurrentModificationException)
+    									  // 为啥不用long指代修改的次数?因为int够用了,而且哪怕溢出了,也会从最小负数开始往上累加
     private void rangeCheckForAdd(int index) {
         if (index < 0 || index > size())
             throw new IndexOutOfBoundsException(outOfBoundsMsg(index));
