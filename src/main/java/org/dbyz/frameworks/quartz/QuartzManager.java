@@ -20,24 +20,20 @@ public class QuartzManager {
 	private static String TRIGGER_GROUP_NAME = "trigger1";
 
 	/**
-	 * 添加一个定时任务，使用默认的任务组名，触发器名，触发器组名
-	 * 
+	 *  添加一个定时任务，使用默认的任务组名，触发器名，触发器组名
+	 *  
 	 * @param jobName
-	 *            任务名
-	 * @param job
-	 *            任务
-	 * @param timeExpression
-	 *            时间设置，参考quartz说明文档
+	 * @param jobClazz
+	 * @param cronExpression
 	 * @throws SchedulerException
 	 * @throws ParseException
 	 */
-	public static void addJob(String jobName, Class<? extends Job> job,
-			String timeExpression) throws SchedulerException, ParseException {
+	public static void addJob(String jobName, Class<? extends Job> jobClazz, String cronExpression) 
+			throws SchedulerException, ParseException {
 		Scheduler sched = sf.getScheduler();
-		JobDetail jobDetail = new JobDetail(jobName, JOB_GROUP_NAME, job);// 任务名，任务组，任务执行类
+		JobDetail jobDetail = new JobDetail(jobName, JOB_GROUP_NAME, jobClazz);// 任务名，任务组，任务执行类
 		// 触发器
-		CronTrigger trigger = new CronTrigger(jobName, TRIGGER_GROUP_NAME,
-				timeExpression);// 触发器名,触发器组 ,触发器时间设定
+		CronTrigger trigger = new CronTrigger(jobName, TRIGGER_GROUP_NAME, cronExpression);// 触发器名,触发器组 ,触发器时间设定
 		sched.scheduleJob(jobDetail, trigger);
 		// 启动
 		if (!sched.isShutdown())
@@ -53,19 +49,16 @@ public class QuartzManager {
 	 * @param triggerName
 	 * @param triggerGroupName
 	 * @param jobClazz
-	 * @param time
+	 * @param cronExpression
 	 * @throws SchedulerException
 	 * @throws ParseException
 	 */
-	public static void addJob(String jobName, String jobGroupName,
-			String triggerName, String triggerGroupName,
-			Class<? extends Job> jobClazz, String time)
-			throws SchedulerException, ParseException {
+	public static void addJob(String jobName, String jobGroupName, String triggerName, String triggerGroupName, 
+			Class<? extends Job> jobClazz, String cronExpression) throws SchedulerException, ParseException {
 		Scheduler sched = sf.getScheduler();
 		JobDetail jobDetail = new JobDetail(jobName, jobGroupName, jobClazz);// 任务名，任务组，任务执行类
 		// 触发器
-		CronTrigger trigger = new CronTrigger(triggerName, triggerGroupName,
-				time);// 触发器名,触发器组 ,触发器时间设定
+		CronTrigger trigger = new CronTrigger(triggerName, triggerGroupName,cronExpression);// 触发器名,触发器组 ,触发器时间设定
 		sched.scheduleJob(jobDetail, trigger);
 		if (!sched.isShutdown())
 			sched.start();
@@ -75,17 +68,16 @@ public class QuartzManager {
 	 * 修改一个任务的触发时间(使用默认的任务组名，触发器名，触发器组名)
 	 * 
 	 * @param jobName
-	 * @param time
+	 * @param cronExpression
 	 * @throws SchedulerException
 	 * @throws ParseException
 	 */
-	public static void modifyJobTime(String jobName, String time)
-			throws SchedulerException, ParseException {
+	public static void modifyJobTime(String jobName, String cronExpression) throws SchedulerException, ParseException {
 		Scheduler sched = sf.getScheduler();
 		Trigger trigger = sched.getTrigger(jobName, TRIGGER_GROUP_NAME);
 		if (trigger != null) {
 			CronTrigger ct = (CronTrigger) trigger;
-			ct.setCronExpression(time);
+			ct.setCronExpression(cronExpression);
 			sched.resumeTrigger(jobName, TRIGGER_GROUP_NAME);
 		}
 	}
@@ -95,19 +87,18 @@ public class QuartzManager {
 	 * 
 	 * @param triggerName
 	 * @param triggerGroupName
-	 * @param time
+	 * @param cronExpression
 	 * @throws SchedulerException
 	 * @throws ParseException
 	 */
-	public static void modifyJobTime(String triggerName,
-			String triggerGroupName, String time) throws SchedulerException,
-			ParseException {
+	public static void modifyJobTime(String triggerName,String triggerGroupName, String cronExpression) 
+			throws SchedulerException, ParseException {
 		Scheduler sched = sf.getScheduler();
 		Trigger trigger = sched.getTrigger(triggerName, triggerGroupName);
 		if (trigger != null) {
 			CronTrigger ct = (CronTrigger) trigger;
 			// 修改时间
-			ct.setCronExpression(time);
+			ct.setCronExpression(cronExpression);
 			// 重启触发器
 			sched.resumeTrigger(triggerName, triggerGroupName);
 		}
@@ -135,8 +126,7 @@ public class QuartzManager {
 	 * @param triggerGroupName
 	 * @throws SchedulerException
 	 */
-	public static void removeJob(String jobName, String jobGroupName,
-			String triggerName, String triggerGroupName)
+	public static void removeJob(String jobName, String jobGroupName,String triggerName, String triggerGroupName)
 			throws SchedulerException {
 		Scheduler sched = sf.getScheduler();
 		sched.pauseTrigger(triggerName, triggerGroupName);// 停止触发器
