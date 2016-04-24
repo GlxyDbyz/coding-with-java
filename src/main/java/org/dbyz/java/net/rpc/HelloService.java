@@ -13,7 +13,9 @@ package org.dbyz.java.net.rpc;
  * @author william.liangf
  */
 public interface HelloService {
-
-    String hello(String name);
+	
+    String say(String name);
+    
+    String laugh();
 
 }

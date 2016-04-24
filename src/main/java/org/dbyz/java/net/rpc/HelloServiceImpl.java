@@ -14,8 +14,14 @@ package org.dbyz.java.net.rpc;
  */
 public class HelloServiceImpl implements HelloService {
 
-    public String hello(String name) {
-        return "Hello " + name;
-    }
+	@Override
+	public String say(String name) {
+		return "Hello " + name;
+	}
+
+	@Override
+	public String laugh() {
+		return " Haha Haha";
+	}
 
 }

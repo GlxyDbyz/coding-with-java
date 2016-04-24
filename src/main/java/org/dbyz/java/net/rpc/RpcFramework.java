@@ -29,7 +29,8 @@ public class RpcFramework {
      * @param port 服务端口
      * @throws Exception
      */
-    public static void export(final Object service, int port) throws Exception {
+    @SuppressWarnings("resource")
+	public static void export(final Object service, int port) throws Exception {
         if (service == null)
             throw new IllegalArgumentException("service instance == null");
         if (port <= 0 || port > 65535)
