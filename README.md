@@ -95,7 +95,7 @@ coding-with-java
 ###### Java 网络编程
 	梁飞RPC例子:org.dbyz.java.net.rpc
 
-##### Jax的b使用(自己写的Jaxb简单工具类)
+##### Jaxb的使用(自己写的Jaxb简单工具类)
 	Jaxb实现对象和XML之间的转换:JaxbUtil.java
 
 ##### commons-codec
