@@ -90,8 +90,12 @@ coding-with-java
 # 三、其他(工具、框架)
 ##### Java反射
 	简单反射例子:ObjectToStringUtil.java
+	动态代理例子:org.dbyz.java.reflact.dynamic_proxy
+	
+##### Java 网络编程
+	梁飞RPC例子:org.dbyz.java.net.rpc
 
-##### Jax的b使用(自己写的Jaxb简单工具类)
+##### Jaxb的使用(自己写的Jaxb简单工具类)
 	Jaxb实现对象和XML之间的转换:JaxbUtil.java
 
 ##### commons-codec
@@ -122,7 +126,10 @@ coding-with-java
 		org.dbyz.frameworks.poi.WriteExcleTest.java
 		
 	2.word简单读取操作:org.dbyz.frameworks.poi.ReadWordTest.java
-
+	
+##### 定时任务
+    quartz简单例子:org.dbyz.frameworks.quartz
+    
 其他待更新...
 
 ![Dbyz](https://avatars2.githubusercontent.com/u/6849536?v=3&s=64 "Dbyz") 
