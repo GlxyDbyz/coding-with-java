@@ -9,7 +9,8 @@ import java.util.concurrent.Future;
 import org.junit.Test;
 /**
  * Future 的使用
- * （Future支持异步返回，在知道某件事情需要长时间才能完成的时候无需等待其完成）
+ * (Future支持异步返回，在知道某件事情需要长时间才能完成的时候无需等待其完成)
+ * 
  * @ClassName: FutureTest
  * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
