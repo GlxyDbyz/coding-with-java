@@ -14,7 +14,7 @@ import org.junit.Test;
 /**
  * FTPClient 使用
  *
- * @ClassName: TestDigest
+ * @ClassName: FTPClientTest
  * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version: V1.0
  */
