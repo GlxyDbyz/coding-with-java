@@ -1,7 +1,7 @@
 package org.dbyz.java.thread.JUC.atomic;
 
 /**
- * JUC autmic 包简单介绍
+ * JUC atomic 包简单介绍
  * 
  * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a> 
  * @version: V1.0
