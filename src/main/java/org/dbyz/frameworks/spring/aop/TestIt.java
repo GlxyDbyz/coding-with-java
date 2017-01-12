@@ -13,13 +13,11 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 
 /**
- * TODO
- * 
- * @author 方正
- * @version Ver 1.0
- * @since Ver 1.0
- * @Date 2015-6-11
- * 
+ * spring AOP 简单例子
+ *
+ * @ClassName: TestIt
+ * @author: 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a> 
+ * @version: V1.0
  */
 @SuppressWarnings("all")
 public class TestIt {

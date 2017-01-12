@@ -21,7 +21,7 @@ public class JsoupSpiderTest {
 	public static final String DEFAULT_CHARSET = "UTF-8";
 	public static void main(String[] args) {
 		RequestConfig.Builder builder = RequestConfig.custom().setConnectTimeout(DEFAULT_TIME_OUT).setSocketTimeout(DEFAULT_TIME_OUT);
-        RequestConfig requestConfig = builder.setCookieSpec(CookieSpecs.DEFAULT).build();
+        RequestConfig requestConfig = builder.setCookieSpec(CookieSpecs.BEST_MATCH).build();
         HttpClient client = HttpClientBuilder.create().setDefaultRequestConfig(requestConfig).build();
         HttpGet get = new HttpGet("https://www.tmall.hk/");
         Document doc = null;
