@@ -1,8 +1,8 @@
 package org.dbyz.java._static;
 
-import static org.dbyz.java._static.StaticMethodImport.$.sayBye;
+import static org.dbyz.java._static.StaticMethodImportTest.$.sayBye;
 
-public class StaticMethodImport {
+public class StaticMethodImportTest {
     static class $ {
         public static String sayHello() {
             return "hello";
