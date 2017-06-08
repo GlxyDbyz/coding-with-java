@@ -192,7 +192,7 @@ public class TranslationUtil {
 		return true;
 	}
 	
-	public class BaiduResponse{
+	public static class BaiduResponse{
 		private BaiduTransResult trans_result;
         public BaiduTransResult getTrans_result() {
 			return trans_result;
@@ -203,7 +203,7 @@ public class TranslationUtil {
 		}
 	}
 	
-	public class BaiduTransResult{
+	public static class BaiduTransResult{
         private String from;
 		private String to;
 		private BaiduResult[] data;
@@ -227,7 +227,7 @@ public class TranslationUtil {
 		}
 	}
 	
-	public class BaiduResult{
+	public static class BaiduResult{
 		private String src;
 		private String dst;
         public String getSrc() {
