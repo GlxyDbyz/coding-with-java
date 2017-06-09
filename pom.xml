@@ -96,6 +96,11 @@
 		</dependency>
 		<!-- spring end -->
 		<dependency>
+			<groupId>org.t-io</groupId>
+			<artifactId>tio-core</artifactId>
+			<version>1.6.9.v20170408-RELEASE</version>
+		</dependency>
+		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.7</version>
