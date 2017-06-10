@@ -86,7 +86,13 @@ coding-with-java
 	外观模式:org.dbyz.design_pattern._02Faced
 	适配器模式:org.dbyz.design_pattern._3Adapter
 	单例模式:org.dbyz.design_pattern._4singleton
-   
+	
+## 8.NIO & NIO2
+    org.dbyz.java.nio
+    org.dbyz.java.nio2
+    org.dbyz.frameworks.tio
+    org.dbyz.frameworks.mina
+    
 # 三、其他(工具、框架)
 ##### Java反射
 	简单反射例子:ObjectToStringUtil.java
