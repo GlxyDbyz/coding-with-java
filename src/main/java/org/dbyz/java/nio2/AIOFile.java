@@ -11,7 +11,7 @@ import java.nio.file.attribute.PosixFilePermission;
 import java.nio.file.attribute.PosixFilePermissions;
 import java.util.Set;
   
-public class AIOZFile {  
+public class AIOFile {  
       
     /** 
      * 创建文件 
