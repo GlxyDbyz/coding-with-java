@@ -8,7 +8,7 @@ import java.util.Map;
  * 
  * @ClassName: Singleton7
  * @Description:
- * @author 作者 E-mail <a href="mailto:845927437@qq.com">Dbyz</a>
+ * @author 作者 E-mail <a href="mailto:glxydbyz@gmail.com">Dbyz</a>
  * @version 创建时间：2015年7月26日下午6:25:24
  */
 public class Singleton7 {
